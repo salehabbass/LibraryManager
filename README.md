@@ -1,4 +1,4 @@
-LibraryManager Program<br>
+<b>LibraryManager Program<b><br><br>
 this program allows you to save your books in your library by entering the name book, author and category, and your library will be saved to jason file to upload it every time you want.<br>
 this program made using python programming language and without using extended libraries.<br>
 
@@ -10,7 +10,7 @@ to run the program follow the steps below :<br>
 url - https://www.python.org/downloads/.<br>
 4- enter the directory contains files from the terminal using cd command --> cd <folder name> .<br>
 5- write the following command in the terminal --> python main.py .<br>
-6- the program will start and it will request you to enter your option .<br>
+6- the program will start and it will request you to enter your option .<br><br>
 note : before adding new books remember to load your library using load appears after you run the program and remember to save your new books using save in the terminal .<br>
 
 Options available as follow : <br>
