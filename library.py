@@ -7,7 +7,7 @@ class library:
     self.books = []
   
   def adding_books(self):
-     book_name = input("Enter the book name: ")
+     book_name = input("Enter the book name: ").lower()
      author = input("enter the author: ")
      category = input("enter the category: ")
      book1 = book(book_name, author, category)
@@ -64,7 +64,7 @@ class library:
 
   def search_book(self):
       if self.books:
-        book_name = input("Enter the book name: ")
+        book_name = input("Enter the book name: ").lower()
         for book in self.books:
           if book.book_name == book_name:
             print(f"Book found: {book.book_name}, author: {book.author}, category: {book.category}")
@@ -76,7 +76,7 @@ class library:
       
   def delete_book(self):
     if self.books:
-      book_name = input("Enter the book name: ")
+      book_name = input("Enter the book name: ").lower()
       for book in self.books:
         if book.book_name == book_name:
           self.books.remove(book)
