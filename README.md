@@ -6,9 +6,9 @@ to run the program follow the steps below :<br>
 
 1- upload zip file from github to your local machine .<br>
 2- unzip the file .<br>
-3- open the terminal in your computer and verify the installation of python by type python -version, if it isn't work download python from the following .<br>
+3- open the terminal in your computer and verify the installation of python by type python -version, if it isn't work download python from the following
 url - https://www.python.org/downloads/.<br>
-4- enter the directory contains files from the terminal using cd command --> cd <folder name> .<br>
+4- enter the directory contains files from the terminal using cd command --> cd folder_name .<br>
 5- write the following command in the terminal --> python main.py .<br>
 6- the program will start and it will request you to enter your option .<br><br>
 note : before adding new books remember to load your library using load appears after you run the program and remember to save your new books using save in the terminal .<br>
